@@ -1,35 +1,106 @@
-# Nadav Shtibel
+<div align="center">
 
-**Full-Stack Software Engineer — AI Agents, Multi-Agent Systems & Production Web Architecture**
+<img src="assets/banner.svg" alt="Nadav Shtibel — AI agents · MCP · automation · Hebrew tooling" width="100%"/>
 
-I design and ship full-stack web applications, data pipelines, and autonomous multi-agent systems across **TypeScript / Next.js / Angular**, **Node.js**, **Python**, and **.NET (C#)**.
+**Full-stack engineer building AI agents, MCP servers and production web systems — Hebrew/RTL-first.**
+<br/>שלום 👋 — I build tools that make agents reliable on real-world Israeli data.
 
----
+[![GitHub](https://img.shields.io/badge/GitHub-Shtibel1-181717?logo=github)](https://github.com/Shtibel1)
+[![hebrew-il-mcp](https://img.shields.io/badge/latest-hebrew--il--mcp-8b5cf6)](https://github.com/Shtibel1/hebrew-il-mcp)
 
-### Core Focus Areas
-
-- **AI Agents & Multi-Agent Orchestration**: Building autonomous tool-using agents, Model Context Protocol (**MCP**) servers, cross-device agent hubs, voice/messaging pipelines (ElevenLabs, Twilio, WhatsApp), and secure vault-backed execution workflows.
-- **Full-Stack & E-Commerce Platforms**: Architecting high-scale web apps, multi-tenant SaaS backends, and RTL/Hebrew-first commerce systems with **Next.js (App Router)**, **React**, **Angular**, **ASP.NET Core**, **PostgreSQL / Supabase**, and **SQL Server**.
-- **Data Engineering & Automation**: Automated scraping, entity resolution on noisy real-world feeds, XML/GZIP ingestion pipelines, and zero-ops static/edge delivery via **AWS Amplify** and **GitHub Actions**.
+</div>
 
 ---
 
-### Selected Public Repositories
+### ⚡ What I work on
 
-| Repository | Stack | What It Does |
-| :--- | :--- | :--- |
-| [**Alex (סל חדרה)**](https://github.com/Shtibel1/Alex) | `Python` `Vanilla JS` `GitHub Actions` `AWS Amplify` | Israeli supermarket basket price-comparison engine across 10 retail chains (25 branches). Ingests official Price Transparency Law XML/GZIP feeds, resolves ~90 weighted fresh-produce items via token/unit heuristics, parses `PromoFull` deal structures, packs delta-encoded price indices into a single client-side bundle, and auto-publishes daily. |
-| [**hebrew-il-mcp**](https://github.com/Shtibel1/hebrew-il-mcp) | `TypeScript` `MCP` `Zod` `Vitest` | Model Context Protocol server that gives AI agents deterministic Israeli/Hebrew tools: Teudat Zehut / ח.פ check-digit validation with registry-prefix detection, phone normalization to E.164, Israeli IBAN validation and generation, date-aware VAT (מע"מ) rate history, Hebrew calendar dates, Hebrew numerals, niqqud stripping and gematria. Pure domain core with a thin MCP adapter, tested end to end through a real MCP client. |
-| [**Invoice Scan (סריקה בעברית)**](https://github.com/Shtibel1/account-management) | `TypeScript` `Next.js` `LangGraph` `Supabase` `AWS Amplify` | Hebrew invoice OCR and bookkeeping pipeline. Google Cloud Vision OCR with word-level bounding boxes feeds a multi-agent LLM pipeline (extraction, VAT-ID/totals validation against the Israeli Companies Registrar, account-code mapping) and a split-pane review UI that exports approved entries to accounting software. |
-| [**DunFlow**](https://github.com/Shtibel1/DunFlow) | `C#` `.NET 9` `EF Core` `Angular` | Metadata-driven task management and workflow state machine engine. Task categories, valid state transitions, and per-status required form schemas live entirely in the database (`WorkTaskTypes`, `WorkTaskStatuses`, `FormFields`) so new workflows ship without backend code changes. |
-| [**InstallersApi2**](https://github.com/Shtibel1/InstallersApi2) & [**installers**](https://github.com/Shtibel1/installers) | `C#` `.NET 8` `EF Core` `WebSockets` `Angular` | Multi-tenant field-service dispatching, technician inventory/stock auditing, and automated contractor settlement platform. Uses JWT claim-based tenant routing (`CompanyMiddleware`), real-time WebSocket dispatch updates, and a full RTL Angular Material client. |
+- **AI agents & MCP** — tool-using agents, Model Context Protocol servers, multi-agent pipelines, voice/messaging integrations.
+- **Full-stack platforms** — Next.js, Angular and ASP.NET Core apps; multi-tenant backends; RTL/Hebrew UX.
+- **Data & automation** — feed ingestion, entity resolution on noisy data, CI/CD with GitHub Actions and AWS Amplify.
 
----
+### 🚀 Featured projects
 
-### Technical Stack
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **Languages**: TypeScript, JavaScript, C#, Python, SQL
-- **Frontend**: Next.js (App Router), React, Angular, Tailwind CSS, HTML/CSS (RTL & Hebrew UX)
-- **Backend & Data**: Node.js, ASP.NET Core (.NET 8 / .NET 9), Entity Framework Core, PostgreSQL, Supabase, SQL Server, REST & WebSockets
-- **AI & Tooling**: Model Context Protocol (MCP), LLM Agent Orchestration, ElevenLabs Voice AI, Playwright / Browser Automation
-- **Cloud & CI/CD**: AWS (Amplify, S3, CloudFront), GitHub Actions, Docker, Linux
+#### [hebrew-il-mcp](https://github.com/Shtibel1/hebrew-il-mcp)
+MCP server giving AI agents deterministic Israeli & Hebrew tools: ת״ז / ח.פ validation, phone normalization, Israeli IBAN, date-aware מע״מ, Hebrew calendar, gematria.
+
+`TypeScript` `MCP` `Zod` `Vitest`
+
+</td>
+<td width="50%" valign="top">
+
+#### [Invoice Scan](https://github.com/Shtibel1/account-management)
+Hebrew invoice OCR and validation pipeline for bookkeeping firms: multi-agent LLM extraction, VAT checks and a review UI.
+
+`Next.js` `LangGraph` `Supabase` `AWS`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+#### [Alex (סל חדרה)](https://github.com/Shtibel1/Alex)
+Supermarket basket price comparison across 10 Israeli chains, built on the official Price Transparency XML/GZIP feeds, with fresh-produce matching and promo parsing.
+
+`Python` `Vanilla JS` `GitHub Actions`
+
+</td>
+<td valign="top">
+
+#### [DunFlow](https://github.com/Shtibel1/DunFlow)
+Metadata-driven workflow engine: task types, transitions and required fields live in the database, so new workflows ship without code changes.
+
+`.NET 9` `EF Core` `xUnit`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+#### [InstallersApi2](https://github.com/Shtibel1/InstallersApi2) + [installers](https://github.com/Shtibel1/installers)
+Multi-tenant field-service dispatch platform: JWT tenant routing, WebSocket updates, stock auditing, contractor settlements and an RTL Angular client.
+
+`.NET 8` `WebSockets` `Angular`
+
+</td>
+<td valign="top">
+
+#### [ChessApi](https://github.com/Shtibel1/ChessApi)
+Object-oriented ASP.NET Core REST API for chess board state and piece-movement validation.
+
+`C#` `ASP.NET Core` `OOP`
+
+</td>
+</tr>
+</table>
+
+### 🧰 Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776ab?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white)
+<br/>
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb)
+![Angular](https://img.shields.io/badge/Angular-dd0031?logo=angular&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-0f172a?logo=tailwindcss&logoColor=38bdf8)
+![.NET](https://img.shields.io/badge/.NET-512bd4?logo=dotnet&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+<br/>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169e1?logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-1c1c1c?logo=supabase&logoColor=3ecf8e)
+![SQL Server](https://img.shields.io/badge/SQL_Server-cc2927?logo=microsoftsqlserver&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232f3e?logo=amazonwebservices&logoColor=ff9900)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088ff?logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ed?logo=docker&logoColor=white)
+<br/>
+![MCP](https://img.shields.io/badge/MCP-8b5cf6)
+![Playwright](https://img.shields.io/badge/Playwright-2ead33?logo=playwright&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000)
+![Twilio](https://img.shields.io/badge/Twilio-f22f46?logo=twilio&logoColor=white)
+
+<div align="center"><sub>Built in Israel 🇮🇱 · תודה שעברת</sub></div>
