@@ -25,7 +25,7 @@
 <td width="50%" valign="top">
 
 #### [hebrew-il-mcp](https://github.com/Shtibel1/hebrew-il-mcp)
-MCP server giving AI agents deterministic Israeli & Hebrew tools: ת״ז / ח.פ validation, phone normalization, Israeli IBAN, date-aware מע״מ, Hebrew calendar, gematria.
+MCP server giving AI agents deterministic Israeli & Hebrew tools: ת״ז / ח.פ validation, phone normalization, Israeli IBAN, plates, date-aware מע״מ, bank holidays / business days, Hebrew calendar, gematria.
 
 `TypeScript` `MCP` `Zod` `Vitest`
 
