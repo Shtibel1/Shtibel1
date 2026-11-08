@@ -6,7 +6,7 @@
 <br/>שלום 👋 — I build tools that make agents reliable on real-world Israeli data.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Shtibel1-181717?logo=github)](https://github.com/Shtibel1)
-[![hebrew-il-mcp](https://img.shields.io/badge/latest-hebrew--il--mcp-8b5cf6)](https://github.com/Shtibel1/hebrew-il-mcp)
+[![il-opendata-mcp](https://img.shields.io/badge/latest-il--opendata--mcp-0d9488)](https://github.com/Shtibel1/il-opendata-mcp)
 
 </div>
 
@@ -32,14 +32,22 @@ MCP server giving AI agents deterministic Israeli & Hebrew tools (v0.5.0): ת״�
 </td>
 <td width="50%" valign="top">
 
+#### [il-opendata-mcp](https://github.com/Shtibel1/il-opendata-mcp)
+MCP server for data.gov.il (CKAN) so agents can search datasets, inspect resources and query datastore records.
+
+`TypeScript` `MCP` `CKAN` `open-data`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 #### [Invoice Scan](https://github.com/Shtibel1/account-management)
 Hebrew invoice OCR and validation pipeline for bookkeeping firms: multi-agent LLM extraction, VAT checks and a review UI.
 
 `Next.js` `LangGraph` `Supabase` `AWS`
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
 #### [Alex (סל חדרה)](https://github.com/Shtibel1/Alex)
@@ -48,6 +56,8 @@ Supermarket basket price comparison across 10 Israeli chains, built on the offic
 `Python` `Vanilla JS` `GitHub Actions`
 
 </td>
+</tr>
+<tr>
 <td valign="top">
 
 #### [DunFlow](https://github.com/Shtibel1/DunFlow)
@@ -56,8 +66,6 @@ Metadata-driven workflow engine: task types, transitions and required fields liv
 `.NET 9` `EF Core` `xUnit`
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
 #### [InstallersApi2](https://github.com/Shtibel1/InstallersApi2) + [installers](https://github.com/Shtibel1/installers)
@@ -66,12 +74,22 @@ Multi-tenant field-service dispatch platform: JWT tenant routing, WebSocket upda
 `.NET 8` `WebSockets` `Angular`
 
 </td>
+</tr>
+<tr>
 <td valign="top">
 
 #### [ChessApi](https://github.com/Shtibel1/ChessApi)
 Object-oriented ASP.NET Core REST API for chess board state and piece-movement validation.
 
 `C#` `ASP.NET Core` `OOP`
+
+</td>
+<td valign="top">
+
+#### [il-basket-compare](https://github.com/Shtibel1/il-basket-compare)
+Compare a grocery basket across Israeli supermarket chains using Price Transparency Law data on GitHub Pages.
+
+`Python` `GitHub Pages` `open-data`
 
 </td>
 </tr>
