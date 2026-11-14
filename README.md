@@ -87,9 +87,9 @@ Object-oriented ASP.NET Core REST API for chess board state and piece-movement v
 <td valign="top">
 
 #### [il-basket-compare](https://github.com/Shtibel1/il-basket-compare)
-Compare a grocery basket across Israeli supermarket chains using Price Transparency Law data on GitHub Pages.
+Nationwide grocery basket comparison across 18 Israeli supermarket chains, rebuilt daily from Price Transparency Law feeds into per-city shards on GitHub Pages, with a per-chain data-quality report in every run. [Live site](https://shtibel1.github.io/il-basket-compare/).
 
-`Python` `GitHub Pages` `open-data`
+`Python` `GitHub Actions` `GitHub Pages` `open-data`
 
 </td>
 </tr>
