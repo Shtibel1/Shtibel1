@@ -6,7 +6,7 @@
 <br/>שלום 👋 — I build tools that make agents reliable on real-world Israeli data.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Shtibel1-181717?logo=github)](https://github.com/Shtibel1)
-[![il-opendata-mcp](https://img.shields.io/badge/latest-il--opendata--mcp-0d9488)](https://github.com/Shtibel1/il-opendata-mcp)
+[![boi-mcp](https://img.shields.io/badge/latest-boi--mcp-1d4ed8)](https://github.com/Shtibel1/boi-mcp)
 
 </div>
 
@@ -36,6 +36,16 @@ MCP server giving AI agents deterministic Israeli & Hebrew tools (v0.6.0, stdio 
 MCP server for data.gov.il (CKAN) so agents can browse publishing ministries, search datasets, inspect resources and query datastore records. Runs over stdio or as a stateless Streamable HTTP service, with a hardened Docker image and one-click Render deploy.
 
 `TypeScript` `MCP` `CKAN` `Streamable HTTP` `Docker` `open-data`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+#### [boi-mcp](https://github.com/Shtibel1/boi-mcp) · new
+MCP server for Bank of Israel public data: official representative exchange rates (שערים יציגים) for 14 currencies, rate on any date with previous-business-day fallback, history with min/max/change, ILS and cross-currency conversion, and the BOI policy interest rate with every change in basis points. Straight from the BOI SDMX API, no key; stdio or stateless Streamable HTTP, hardened Docker image.
+
+`TypeScript` `MCP` `SDMX` `Streamable HTTP` `Docker` `fintech`
 
 </td>
 </tr>
