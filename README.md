@@ -61,7 +61,7 @@ Hebrew invoice OCR and validation pipeline for bookkeeping firms: multi-agent LL
 <td valign="top">
 
 #### [Alex (סל חדרה)](https://github.com/Shtibel1/Alex)
-Supermarket basket price comparison across 10 Israeli chains, built on the official Price Transparency XML/GZIP feeds, with fresh-produce matching and promo parsing.
+Supermarket basket price comparison across 10 Israeli chains, built on the official Price Transparency XML/GZIP feeds, with fresh-produce matching and promo parsing. Rebuilt every morning by GitHub Actions; unreachable portals now fail in seconds instead of stalling the run. [Live site](https://shtibel1.github.io/Alex/).
 
 `Python` `Vanilla JS` `GitHub Actions`
 
