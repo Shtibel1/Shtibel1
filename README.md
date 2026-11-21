@@ -106,8 +106,8 @@ Nationwide grocery basket comparison across 18 Israeli supermarket chains, rebui
 <tr>
 <td colspan="2" valign="top">
 
-#### [il-consumer-agent](https://github.com/Shtibel1/il-consumer-agent) · [live demo](https://shtibel1.github.io/il-consumer-agent/)
-Hebrew RTL customer-service agent for Israelis vs. large companies: classifies the issue, drafts a complaint citing consumer-protection law, tracks it through an SLA-aware state machine, and learns per-company playbooks from every outcome (persisted, de-duplicated learning loop).
+#### [il-consumer-agent](https://github.com/Shtibel1/il-consumer-agent) · v0.2.0 · [live demo](https://shtibel1.github.io/il-consumer-agent/)
+Hebrew RTL customer-service agent for Israelis vs. large companies: classifies the issue, drafts a complaint citing consumer-protection law, tracks it through an SLA-aware state machine, and learns per-company playbooks from every outcome (persisted, de-duplicated learning loop). v0.2.0 adds a validator for the open company knowledge base that CI runs on every change: every fact needs an https source, Israeli phone/fax formats, sequential escalation ladders and coherent SLAs, with errors reported down to the exact field.
 
 `React 19` `TypeScript` `Zustand` `Vitest` `RTL`
 
