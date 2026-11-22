@@ -6,7 +6,7 @@
 <br/>שלום 👋 — I build tools that make agents reliable on real-world Israeli data.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Shtibel1-181717?logo=github)](https://github.com/Shtibel1)
-[![boi-mcp](https://img.shields.io/badge/latest-boi--mcp-1d4ed8)](https://github.com/Shtibel1/boi-mcp)
+[![cbs-mcp](https://img.shields.io/badge/latest-cbs--mcp-0f766e)](https://github.com/Shtibel1/cbs-mcp)
 
 </div>
 
@@ -21,6 +21,16 @@
 ### 🚀 Featured projects
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+#### [cbs-mcp](https://github.com/Shtibel1/cbs-mcp) · v0.1.0 · new
+MCP server for the Israel Central Bureau of Statistics price indices: the CPI (מדד המחירים לצרכן) and ~1,350 other indices (housing, construction inputs, producer prices...) with English/Hebrew search, history that stays correct across CBS base changes, multi-index comparison, a one-call CPI summary and a הצמדה למדד calculator. It links by index month locally or by the index known on a date through the official CBS calculator, and the two agree to the agora (100 ₪, 11/2019 → 11/2025 = 117.25 ₪). 75 tests replay recorded API responses; runs over stdio or stateless Streamable HTTP, with Docker.
+
+`TypeScript` `MCP` `Streamable HTTP` `Docker` `fintech` `open-data`
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
