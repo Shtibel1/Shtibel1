@@ -52,8 +52,8 @@ MCP server for data.gov.il (CKAN) so agents can browse publishing ministries, se
 <tr>
 <td colspan="2" valign="top">
 
-#### [boi-mcp](https://github.com/Shtibel1/boi-mcp) · v0.3.0
-MCP server for Bank of Israel public data: official representative exchange rates (שערים יציגים) for 14 currencies, rate on any date with previous-business-day fallback, history with min/max/change, ILS and cross-currency conversion, multi-currency comparison against the shekel (volatility, max drawdown, basket move), the shekel's nominal effective (trade-weighted) exchange rate index, and the BOI policy interest rate with every change in basis points. Straight from the BOI SDMX API, no key; MCP resources, a shared TTL response cache, stdio or stateless Streamable HTTP, hardened Docker image.
+#### [boi-mcp](https://github.com/Shtibel1/boi-mcp) · v0.4.0
+MCP server for Bank of Israel public data: official representative exchange rates (שערים יציגים) for 14 currencies, rate on any date with previous-business-day fallback, history with min/max/change, ILS and cross-currency conversion, multi-currency comparison against the shekel (volatility, max drawdown, basket move), the shekel's nominal effective (trade-weighted) exchange rate index, the BOI policy interest rate with every change in basis points, and (v0.4.0) inflation expectations from four sources checked against the 1–3% target plus the nominal/real zero-coupon government yield curve with break-even inflation per tenor, curve shape and 12-month changes. Straight from the BOI SDMX API, no key; MCP resources, a shared TTL response cache, stdio or stateless Streamable HTTP, hardened Docker image.
 
 `TypeScript` `MCP` `SDMX` `Streamable HTTP` `Docker` `fintech`
 
