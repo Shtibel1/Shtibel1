@@ -42,8 +42,8 @@ MCP server giving AI agents deterministic Israeli & Hebrew tools (v0.7.0, stdio 
 </td>
 <td width="50%" valign="top">
 
-#### [il-opendata-mcp](https://github.com/Shtibel1/il-opendata-mcp) · v0.5.0
-MCP server for data.gov.il (CKAN) so agents can browse publishing ministries, search datasets, inspect resources and query datastore records. v0.5.0 adds MCP resources (`opendata://organizations`, `opendata://dataset/{name}`) and a shared in-memory response cache (a ~9 s catalog call drops to milliseconds). Runs over stdio or as a stateless Streamable HTTP service, with a hardened Docker image and one-click Render deploy.
+#### [il-opendata-mcp](https://github.com/Shtibel1/il-opendata-mcp) · v0.6.0
+MCP server for data.gov.il (CKAN) so agents can browse publishing ministries, search datasets, inspect resources and query datastore records. v0.6.0 adds `count_records` (exact totals and per-value breakdowns over millions of rows without downloading them), `list_field_values`, sorting and multi-value filters, on top of MCP resources and a shared in-memory response cache. Runs over stdio or as a stateless Streamable HTTP service, with a hardened Docker image and one-click Render deploy.
 
 `TypeScript` `MCP` `CKAN` `Streamable HTTP` `Docker` `open-data`
 
