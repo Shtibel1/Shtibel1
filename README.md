@@ -24,8 +24,8 @@
 <tr>
 <td colspan="2" valign="top">
 
-#### [cbs-mcp](https://github.com/Shtibel1/cbs-mcp) · v0.2.0 · new
-MCP server for the Israel Central Bureau of Statistics price indices: the CPI (מדד המחירים לצרכן) and ~1,350 other indices (housing, construction inputs, producer prices...) with English/Hebrew search, history that stays correct across CBS base changes, multi-index comparison, a one-call CPI summary and a הצמדה למדד calculator. It links by index month locally or by the index known on a date through the official CBS calculator, and the two agree to the agora (100 ₪, 11/2019 → 11/2025 = 117.25 ₪). v0.2.0 adds year-by-year inflation tables back to 1951 with the Bank of Israel 1–3% target check, and repairs the CPI's 1985 ÷100 rescale so hyperinflation years match CBS. 94 tests replay recorded API responses; runs over stdio or stateless Streamable HTTP, with Docker.
+#### [cbs-mcp](https://github.com/Shtibel1/cbs-mcp) · v0.3.0 · new
+MCP server for the Israel Central Bureau of Statistics price indices: the CPI (מדד המחירים לצרכן) and ~1,350 other indices (housing, construction inputs, producer prices...) with English/Hebrew search, history that stays correct across CBS base changes, multi-index comparison, a one-call CPI summary and a הצמדה למדד calculator. It links by index month locally or by the index known on a date through the official CBS calculator, and the two agree to the agora (100 ₪, 11/2019 → 11/2025 = 117.25 ₪). Year-by-year inflation tables back to 1951 with the Bank of Israel 1–3% target check, and (v0.3.0) linked payment schedules — rent or contractor instalments, each payment linked to the index known on its date, with linkage differentials, totals and estimates for future payments, matching the official calculator. 106 tests replay recorded API responses; runs over stdio or stateless Streamable HTTP, with Docker.
 
 `TypeScript` `MCP` `Streamable HTTP` `Docker` `fintech` `open-data`
 
